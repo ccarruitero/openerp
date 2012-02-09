@@ -4,8 +4,9 @@
 #
 # pip install -r requirements.txt
 #
-#
-# Note: This is only a python packages necesary, I asume you have installed and configured postgres and apache
+# Notes:
+# -This is only a python packages necesary, I asume you have installed and configured postgres and apache
+# -It's probable you will need install libpq-dev and python-dev too
 
 # This for server
 psycopg2 >= 2.4.4
