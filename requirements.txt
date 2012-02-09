@@ -6,7 +6,7 @@
 #
 # Notes:
 # -This is only a python packages necesary, I asume you have installed and configured postgres and apache
-# -It's probable you will need install libpq-dev and python-dev too
+# -It's probable you will need install: libpq-dev python-dev libxml2-dev libxslt-dev
 
 # This for server
 psycopg2 >= 2.4.4
@@ -15,7 +15,7 @@ egenix-mx-base
 pytz
 Mako
 pydot >= 1.0.25
-lxml
+lxml >= 2.3.3
 vobject
 pyyaml
 python-dateutil
