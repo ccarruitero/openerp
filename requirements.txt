@@ -1,0 +1,29 @@
+# This file collects all required third-party applications that are needed
+# to run this project. Later you can install all these apps in a row
+# using pip. Example:
+#
+# pip install -r requirements.txt
+#
+#
+# Note: This is only a python packages necesary, I asume you have installed and configured postgres and apache
+
+# This for server
+psycopg2 >= 2.4.4
+reportlab
+egenix-mx-base
+pytz
+Mako
+pydot >= 1.0.25
+lxml
+vobject
+pyyaml
+python-dateutil
+PyChart
+PyWebDAV
+
+# And this for web-client
+CherryPy >= 3.1.2
+FormEncode >= 1.2.4
+Babel
+simplejson 
+pyparsing
