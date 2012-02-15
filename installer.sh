@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pip install -r requirements.txt
+
 # Download and unpacking openerp server
 wget http://www.openerp.com/download/stable/source/openerp-server-6.0.3.tar.gz
 tar xvf openerp-server-6.0.3.tar.gz
