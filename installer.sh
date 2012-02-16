@@ -22,3 +22,7 @@ python setup.py install
 cd ..
 rm PyChart-1.39.tar.gz
 rm -r PyChart-1.39
+
+# install openerp
+cd server
+python setup.py install
