@@ -1,9 +1,15 @@
 This is a script for openerp.
 (I'm very lazy and want to do everything with a only one line :D, or less it's possible)
 
-First, you will need install: libpq-dev python-dev libxml2-dev libxslt-dev
+First, you will need install: 
 
-And you have installed and configured postgres and apache
+Ubuntu/Debian:
+libpq-dev python-dev libxml2-dev libxslt-dev
+
+Fedora:
+python-devel postgresql-devel libxml2-devel libxslt-devel
+
+And you have to install and configure postgres and apache
 
 Then run
 sh installer.sh
