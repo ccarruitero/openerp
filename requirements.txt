@@ -18,7 +18,7 @@ pydot >= 1.0.25
 lxml >= 2.3.3
 vobject
 pyyaml
-python-dateutil
+python-dateutil==1.5
 # PyChart-1.39 (doesn't work it's necesary install from source)
 PyWebDAV
 
